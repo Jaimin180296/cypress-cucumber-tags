@@ -74,6 +74,6 @@ Here are a few important links to get you started and help you  successfully int
 -   [Run Tests in Localhost / Dev / Staging Environments](https://www.browserstack.com/docs/automate/cypress/local-testing)
 -   [Run Tests in Parallel](https://www.browserstack.com/docs/automate/cypress/run-tests-in-parallel)
 -   [Run Tests in CI/CD](https://www.browserstack.com/docs/automate/cypress/ci-cd-overview)
--[cucumber tags](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
+-   [cucumber tags](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 
 
