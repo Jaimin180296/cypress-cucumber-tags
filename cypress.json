@@ -1,5 +1,8 @@
 {
-    "testFiles": "**/search.feature",
+ "env": {
+            "TAGS": "@tag"
+        },
+    "testFiles": "**/**.feature",
     "viewportWidth": 1920,
     "viewportHeight": 1080
 }
