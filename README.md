@@ -56,6 +56,15 @@ npm run cy:browserstack
 * You can view your test run on the [Automate Dashboard](https://automate.browserstack.com/dashboard/v2/).
 * If you wish to test a public URL you will have to undo the changes you made to the files cypress.json and browserstack.json while testing a local environment.
 
+#Cucumber Tags 
+
+You can run test with cucumber tags by mentioning the same in cypress.json and add tags above scenario file. 
+
+Run cucumber in cypress on BrowserStack you can refer below command:
+```bash
+browserstack-cypress run --sync -e Tags=@tag
+```
+
 ## Documentation
 
 Here are a few important links to get you started and help you  successfully integrate the CLI into your CI/CD pipelines.
@@ -65,5 +74,6 @@ Here are a few important links to get you started and help you  successfully int
 -   [Run Tests in Localhost / Dev / Staging Environments](https://www.browserstack.com/docs/automate/cypress/local-testing)
 -   [Run Tests in Parallel](https://www.browserstack.com/docs/automate/cypress/run-tests-in-parallel)
 -   [Run Tests in CI/CD](https://www.browserstack.com/docs/automate/cypress/ci-cd-overview)
+-[cucumber tags](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 
 
