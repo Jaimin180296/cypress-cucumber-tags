@@ -4,7 +4,7 @@ Feature: Login to Web App
     I should not be able to login
     As a valid user
     I should be able to login
-
+    @tag
     Scenario: Invalid Login Credentials
         Given I visit the login page
         When I submit invalid login credentials
